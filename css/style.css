@@ -227,7 +227,7 @@ html,body{
     border-radius: 6px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1165px) {
 	.container-list-tnks p{
 		font-size: 40px;
 	}
