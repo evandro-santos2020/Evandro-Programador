@@ -234,6 +234,9 @@ html,body{
 
 	.container-list-tnks, .container-list {
 		margin-top: 25%;
+	    width: 100%;
+	    text-align: center;
+	    font-size: 22px;
 	}
 
 	.form {
@@ -272,6 +275,32 @@ html,body{
     width: 100%;
     height: 55px;
     border: 1px solid #ccc;
+	}
+
+	.container-2 h2 {
+    font-weight: normal;
+    font-size: 40px;
+	}
+
+	.container-2 p {
+    margin: 15px;
+    display: inline-block;
+    text-align: justify;
+    font-size: 20px;
+	}
+
+	.section-1 h2 {
+    text-align: center;
+    color: #462663;
+    font-weight: normal;
+    font-size: 40px;
+	}
+
+	.container-single p {
+    display: inline-block;
+    text-align: justify;
+    padding: 10px 25px;
+    font-size: 22px;
 	}
 
 }
