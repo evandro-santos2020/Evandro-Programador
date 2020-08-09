@@ -49,15 +49,15 @@ html,body{
 .form{
 	padding:10px;
 	width: 550px;
-	height: calc(100% + 50px);
 	float: right;
 	position: relative;
-	top:-25px;
 	border-width: 12px;
 	border-color: rgba(120,120,120,0.5);
 	border-style: solid;
 	background-color: white;
 	background-clip:padding-box;
+	margin-top: 0.5%;
+	height: 98%;
 	/*background-origin tem o mesmo conceito porém serve para imagens.*/
 }
 
@@ -227,14 +227,17 @@ html,body{
     border-radius: 6px;
 }
 
+#home{
+	height: 40px;
+}
+
 @media (max-width: 1165px) {
 	.container-list-tnks p{
 		font-size: 40px;
 	}
 
 	.container-list-tnks, .container-list {
-		margin-top: 25%;
-	    width: 100%;
+		width: 100%;
 	    text-align: center;
 	    font-size: 22px;
 	}
